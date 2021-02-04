@@ -1,0 +1,259 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.image{
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+.nav{
+    width:73.20%;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+.nav h2{
+    float: left;
+    font-size: 13px;
+}
+.nav h2 span{
+    font-weight: lighter;
+}
+.nav ul{
+    float: right;
+}
+.nav li{
+    list-style: none;
+}
+.nav ul a{
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    float: left;
+    margin: 0px 10px;
+}
+.nav ul a:hover{
+    color: rgb(19, 214, 84);
+}
+.banner{
+    width:73.20%;
+    margin: 0 auto;
+    margin-top: 16%;
+    text-align: center;
+}
+.banner h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 35px;
+}
+.banner .box{
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-right: 5%;
+    
+}
+.banner .right-box{
+    margin-right: 0;
+    float: right;
+}
+.banner .box .fa{
+      color: rgb(19, 214, 84);
+      font-size: 25px;
+}
+.banner p{
+    font-size: 11px;
+    color :gray;
+}
+button{
+    width: 130px;
+    height: 30px;
+    border: 1px solid rgb(19, 214, 84);
+    color: rgb(19, 214, 84);
+    border-radius: 15px;
+    font-size: 11px;
+    background-color:transparent;
+    border-bottom: 2px solid rgb(19, 214, 84);
+    cursor: pointer;
+}
+.two-box{
+    width: 58.6%;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+.two-box .box{
+    width: 45%;
+    float: left;
+    text-align: center;
+}
+.two-box .right{
+    float: right;
+}
+.two-box .box img{
+    width: 25%;
+    border-radius: 100%;
+}
+.two-box .box h2{
+    font-size: 18px;
+    font-weight: 500;
+}
+.two-box .box p{
+    color: gray;
+    font-size: 12px;
+}
+.forms{
+    background-color: rgb(66, 209, 113);
+    width: 100%;
+    text-align: center;
+}
+.forms h2{
+    color:white;
+    font-weight: 500;
+    font-size: 18px;
+}
+.form{
+    width: 73.20%;
+    margin: 0 auto;
+}
+.form input[type=text],.form input[type=email]{
+    width: 49%;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+form .text{
+    width: 73.20%;
+    height: 130px;
+    border-radius: 4px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+input[type=submit]{
+    width: 130px;
+    height: 30px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 15px;
+    font-size: 11px;
+    background-color:transparent;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    color: green;
+    background-color: white;
+}
+.forms p{
+    color: white;
+    font-size: 15px;
+}
+.forms p span{
+    font-weight: bold;
+}
+.forms .fa{
+    color: white;
+    margin: 0px 10px;
+    font-weight: 100;
+    font-size: 20px;
+    cursor: pointer;
+}
+@media only screen and (max-width:540px){
+    .image{
+        height: 400px; 
+    }
+    .nav{
+        width:60%;
+        margin: 0 auto;
+        border-bottom: 1px solid white;
+        padding-bottom: 10px;
+    }
+    .nav h2{
+        width: 100%;
+        clear: both;
+        text-align: center
+    }
+    .banner{
+        width:100%;
+        margin: 0 auto;
+        margin-top: 16%;
+        text-align: center;
+    }
+   .banner h1{
+       font-size: 20px;
+   }
+    
+    .banner .right-box{
+        margin-right: 0;
+        float: right;
+    }
+    .banner .box .fa{
+          color: rgb(19, 214, 84);
+          font-size: 20px;
+    }
+    .banner .box h2{
+        font-size: 15px;
+    }
+    .banner p{
+        font-size: 11px;
+        color :white;
+    }
+       
+    .banner button{
+        margin-top: 40px;
+    }
+    .two-box .box{
+        width: 100%;
+        clear: both;
+        padding-bottom: 30px;
+    }
+    .two-box .right{
+        clear: both;
+    }
+    .two-box .box img{
+        width: 70%;
+    }
+    .form{
+        width: 73.20%;
+        margin: 0 auto;
+    }
+    .form input[type=text],.form input[type=email]{
+        width: 100%;
+    }
+    
+    form .text{
+        width: 100%;
+    }
+   
+    .nav ul{
+        clear: both;
+    }
+    .nav li{
+        list-style: none;
+    }
+    .nav ul a{
+        font-size: 12px;
+        color: white;
+        text-decoration: none;
+        float:left;
+        margin: 0px 10px;
+    }
+}
+@media only screen and (max-width:1024px){
+    
+    .form input[type=email]{
+        margin-top: 20px;
+    }
+}
